@@ -1,3 +1,21 @@
+""" 
+Question 1: Vehicle Registration System
+
+Description:
+
+Create a class called VehicleRegistry. It should have the following attributes and methods:
+
+Attributes: registry_name (string) and registered_vehicles (dictionary with vehicle license plate numbers as keys and a tuple (owner_name, vehicle_type) as values).
+
+Methods:
+
+register_vehicle(license_plate, owner_name, vehicle_type): Registers a new vehicle.
+
+deregister_vehicle(license_plate): Removes a vehicle from the registry.
+
+list_vehicles(): Returns a list of all registered vehicles in the format "License Plate: Owner - Vehicle Type".
+"""
+
 class VehicleRegistry:
     
     def __init__(self, registry_name):
